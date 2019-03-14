@@ -1,8 +1,12 @@
-https://www.techiediaries.com/angular-bootstrap-ui/
-https://medium.com/@manivel45/configuring-angular-7-project-with-sass-bootstrap-and-angular-material-design-69b0f033dc04
-https://www.talkingdotnet.com/add-bootstrap-4-to-angular-6-application/
 
-Step-1: ng new [app-name] --style=scss --routing  (Create-Project with routing & SCSS)
+
+# Step2
+
+npm install bootstrap --save [insall bootstrap-4]
+Next you need to instruct Angular CLI 7 to load the Bootstrap styles.
+
+There are many ways to do that. The simpest method is by using the src/styles.css 
+file and adding the following code
 
 # ReactiveSimpleForm
 
