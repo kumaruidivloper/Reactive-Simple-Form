@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl, FormBuilder, Validators } from '@angular/forms';
+import { FormGroup, FormControl, FormBuilder } from '@angular/forms';
 import { Custom } from './custom';
 
 @Component({
@@ -13,8 +13,8 @@ export class UserFormComponent implements OnInit {
 
   constructor(fb: FormBuilder) { 
     this.userForm = fb.group({
-      name: [null, Validators.required],
-      email: [null, null, Custom.unique],
+      name: [null],
+      email: [null],
       size: null
     })
     // this.send(); 
