@@ -1,11 +1,13 @@
 
-# Step 10
+# Step 11
 
-Reactive Form custom directive email validation
+Reactive Form custom form control
 
-new file:   src/app/user-form/unique.directive.ts
+modified:   src/app/app.module.ts
+new file:   src/app/user-form/size/size.component.html
+new file:   src/app/user-form/size/size.component.scss
+new file:   src/app/user-form/size/size.component.ts
 modified:   src/app/user-form/user-form.component.html
-modified:   src/app/user-form/user-form.component.ts
 
 # ReactiveSimpleForm
 

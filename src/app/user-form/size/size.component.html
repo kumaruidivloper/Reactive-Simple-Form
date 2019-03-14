@@ -1,0 +1,12 @@
+<div class="from-group">
+    <div class="btn-group" role="group" aria-label="basic example">
+        <button type="button" class="btn btn-secondary" 
+        (click)="setSize('small')" [class.active]="size === 'small'">Small</button>
+
+        <button type="button" class="btn btn-secondary" 
+        (click)="setSize('medium')" [class.active]="size === 'medium'">Medium</button>
+
+        <button type="button" class="btn btn-secondary" 
+        (click)="setSize('large')" [class.active]="size === 'large'">Large</button>
+    </div>
+</div>
