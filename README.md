@@ -1,9 +1,10 @@
 
 
-# Step2
+# Step3
 
-npm install bootstrap --save [insall bootstrap-4]
-Next you need to instruct Angular CLI 7 to load the Bootstrap styles.
+path: src/styles.scss
+
+@import "~bootstrap/dist/css/bootstrap.css"; [call the bootstarp 4 to app]
 
 There are many ways to do that. The simpest method is by using the src/styles.css 
 file and adding the following code
