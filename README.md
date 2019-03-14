@@ -1,8 +1,12 @@
-https://www.techiediaries.com/angular-bootstrap-ui/
+#Reference Link
+
 https://medium.com/@manivel45/configuring-angular-7-project-with-sass-bootstrap-and-angular-material-design-69b0f033dc04
+https://www.techiediaries.com/angular-bootstrap-ui/
 https://www.talkingdotnet.com/add-bootstrap-4-to-angular-6-application/
 
-Step-1: ng new [app-name] --style=scss --routing  (Create-Project with routing & SCSS)
+# Step-1
+
+ng new [app-name] --style=scss --routing  (Create-Project with routing & SCSS)
 
 # ReactiveSimpleForm
 
