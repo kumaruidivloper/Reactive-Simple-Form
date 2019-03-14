@@ -1,11 +1,11 @@
 
-# Step 7
+# Step 8
 
-Reactive Form validation Done for name filed
+Reactive Form custom validation for e-mail
 
-modified:   src/app/user-form/user-form.component.html
-modified:   src/app/user-form/user-form.component.scss
+new file:   src/app/user-form/custom.ts
 modified:   src/app/user-form/user-form.component.ts
+
 
 
 
