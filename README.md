@@ -1,12 +1,10 @@
 
-# Step 5
+# Step 6
 
-modified:   src/app/app.component.html
-modified:   src/app/app.module.ts
-new file:   src/app/user-form/user-form.component.html
-new file:   src/app/user-form/user-form.component.scss
-new file:   src/app/user-form/user-form.component.spec.ts
-new file:   src/app/user-form/user-form.component.ts
+Reactive Form bind in to html templates
+
+modified:   src/app/user-form/user-form.component.html
+modified:   src/app/user-form/user-form.component.ts
 
 
 # ReactiveSimpleForm

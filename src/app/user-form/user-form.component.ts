@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl } from '@angular/forms';
+import { FormGroup, FormControl, FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-user-form',
@@ -10,17 +10,21 @@ export class UserFormComponent implements OnInit {
   
   public userForm: FormGroup;
 
-  constructor() { 
-    this.userForm = new FormGroup({
-      name: new FormControl(),
-      email: new FormControl(),
-      size: new FormControl()
+  constructor(fb: FormBuilder) { 
+    this.userForm = fb.group({
+      name: null,
+      email: null,
+      size: null
     })
-    this.send(); 
+    // this.send(); 
   }
 
   send() {
     console.log(this.userForm.value);
+  }
+
+  reset() {
+    this.userForm.reset();
   }
 
   ngOnInit() {

@@ -1,3 +1,42 @@
-<p>
-  user-form works!
-</p>
+<form [formGroup]="userForm" 
+      (ngSubmit)="send()">
+
+  <div class="from-group">
+    <label>name</label>
+    <input type="text" 
+           formControlName="name"
+           class="form-control">
+    <small class="form-text">Validation msg</small>
+  </div>
+
+  <div class="from-group">
+    <label>Email</label>
+    <input type="text" 
+           formControlName="email"
+           class="form-control">
+    <small class="form-text">Validation msg</small>
+  </div>
+
+  <div class="from-group">
+    <label>Size</label>
+    <select class="form-control"
+            formControlName="size">
+      <option value="small">small</option>
+      <option value="medium">medium</option>
+      <option value="large">large</option>
+    </select>
+  </div>
+
+  <div class="from-group mt-3">
+
+      <button class="btn btn-primary mr-3" 
+      type="submit">Send</button>
+
+      <button class="btn btn-danger"
+      (click)="reset()" 
+      type="button">Reset</button>
+
+  </div>
+  
+
+</form>
