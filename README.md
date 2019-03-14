@@ -1,12 +1,11 @@
 
-# Step 8
+# Step 9
 
-Reactive Form custom validation for e-mail
+Reactive Form Async email validation
 
-new file:   src/app/user-form/custom.ts
+modified:   src/app/user-form/custom.ts
+modified:   src/app/user-form/user-form.component.html
 modified:   src/app/user-form/user-form.component.ts
-
-
 
 
 # ReactiveSimpleForm

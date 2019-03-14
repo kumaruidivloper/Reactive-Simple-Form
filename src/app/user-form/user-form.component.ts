@@ -14,7 +14,7 @@ export class UserFormComponent implements OnInit {
   constructor(fb: FormBuilder) { 
     this.userForm = fb.group({
       name: [null, Validators.required],
-      email: [null, Custom.unique],
+      email: [null, null, Custom.unique],
       size: null
     })
     // this.send(); 

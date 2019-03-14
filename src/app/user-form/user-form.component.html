@@ -15,7 +15,7 @@
     <input type="text" 
            formControlName="email"
            class="form-control">
-    <small class="form-text">Validation msg</small>
+    <small *ngIf="email.pending" class="form-text">Validation in process...</small>
   </div>
 
   <div class="from-group">
