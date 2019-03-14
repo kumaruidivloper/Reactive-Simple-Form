@@ -6,7 +6,8 @@
     <input type="text" 
            formControlName="name"
            class="form-control">
-    <small class="form-text">Validation msg</small>
+    <small *ngIf="name.invalid" 
+           class="form-text text-danger">Validation msg</small>
   </div>
 
   <div class="from-group">

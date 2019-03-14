@@ -1,10 +1,12 @@
 
-# Step 6
+# Step 7
 
-Reactive Form bind in to html templates
+Reactive Form validation Done for name filed
 
 modified:   src/app/user-form/user-form.component.html
+modified:   src/app/user-form/user-form.component.scss
 modified:   src/app/user-form/user-form.component.ts
+
 
 
 # ReactiveSimpleForm
