@@ -1,21 +1,13 @@
 
+# Step 5
 
-# Step4
+modified:   src/app/app.component.html
+modified:   src/app/app.module.ts
+new file:   src/app/user-form/user-form.component.html
+new file:   src/app/user-form/user-form.component.scss
+new file:   src/app/user-form/user-form.component.spec.ts
+new file:   src/app/user-form/user-form.component.ts
 
-npm install --save @ng-bootstrap/ng-bootstrap [install ng-bootstrap]
-
-	Once installed, you need to import our main module and add the imported module in the root
-	module. To do that, open app.module.ts file and include the following code.
-	
-# find below
-
-	import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-	@NgModule({
-	  imports: [ NgbModule.forRoot(), ... ],  
-	  // ...
-	})
-	export class AppModule {}
-	
 
 # ReactiveSimpleForm
 
