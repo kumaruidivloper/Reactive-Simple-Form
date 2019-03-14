@@ -1,13 +1,21 @@
 
 
-# Step3
+# Step4
 
-path: src/styles.scss
+npm install --save @ng-bootstrap/ng-bootstrap [install ng-bootstrap]
 
-@import "~bootstrap/dist/css/bootstrap.css"; [call the bootstarp 4 to app]
+	Once installed, you need to import our main module and add the imported module in the root
+	module. To do that, open app.module.ts file and include the following code.
+	
+# find below
 
-There are many ways to do that. The simpest method is by using the src/styles.css 
-file and adding the following code
+	import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+	@NgModule({
+	  imports: [ NgbModule.forRoot(), ... ],  
+	  // ...
+	})
+	export class AppModule {}
+	
 
 # ReactiveSimpleForm
 
